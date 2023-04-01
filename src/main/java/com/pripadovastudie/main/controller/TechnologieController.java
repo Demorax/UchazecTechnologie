@@ -16,8 +16,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 @RestController
-@CrossOrigin
-@RequestMapping("/api/technologie")
+@RequestMapping("/technologie")
+@CrossOrigin(origins = "http://localhost:3000")
 public class TechnologieController {
 
     @Autowired

@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api/uchazec")
+@RequestMapping("/uchazec")
 public class UchazecController {
 
     @Autowired

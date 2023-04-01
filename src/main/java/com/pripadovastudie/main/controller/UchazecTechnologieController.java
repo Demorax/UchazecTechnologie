@@ -19,7 +19,7 @@ import java.util.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api/final")
+@RequestMapping("/uchazectechnologie")
 public class UchazecTechnologieController {
 
     @Autowired

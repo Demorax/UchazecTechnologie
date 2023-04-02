@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/technologie")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin("http://localhost:3000")
 public class TechnologieController {
 
     @Autowired
